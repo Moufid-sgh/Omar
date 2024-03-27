@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* font----------------------------------------- */
+@font-face {
+  font-family: comfortaa;
+  src: url(./fonts/Comfortaa-VariableFont_wght.ttf)  format('truetype');
+  font-display: swap;
+}
+
+.comfortaa {
+  font-family: comfortaa, sans-serif;
+}
+
+@font-face {
+  font-family: Playfair;
+  src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf)  format('truetype');
+  font-display: swap;
+}
+
+.Playfair {
+  font-family: Playfair, sans-serif;
+}
+
+@font-face {
+  font-family: cairo;
+  src: url(./fonts/Cairo-Regular.ttf)  format('truetype');
+  font-display: swap;
+}
+
+.cairo {
+  font-family: cairo, sans-serif;
+}
+/* ------------------------------------------------ */
+
+@font-face {
+  font-family: Faseh;
+  src: url(./fonts/DG-Faseh-Regular.ttf)  format('truetype');
+  font-display: swap;
+}
+
+.Faseh {
+  font-family: Faseh, sans-serif;
+}
+
+/* for about */
+@font-face {
+  font-family: omnes;
+  src: url(./fonts/OMNES-ARABIC-REGULAR.ttf)  format('truetype');
+  font-display: swap;
+}
+
+.omnes {
+  font-family: omnes, sans-serif;
+}
+
+@font-face {
+  font-family: GHAITHSANS;
+  src: url(./fonts/GHAITHSANS-Bold.otf);
+  font-display: swap;
+}
+
+.GHAITHSANS {
+  font-family: GHAITHSANS, sans-serif;
+}
+@font-face {
+  font-family: wahran;
+  src: url(./fonts/Wahran-Bold.otf);
+  font-display: swap;
+}
+
+.wahran {
+  font-family: wahran, sans-serif;
+}
+
+@font-face {
+  font-family: bixie;
+  src: url(./fonts/BIXIE-Regular.ttf) format('truetype');
+  font-display: swap;
+}
+
+.bixie {
+  font-family: bixie, sans-serif;
+}
+
+@font-face {
+  font-family: vexa;
+  src: url(./fonts/VEXA-1-1.ttf);
+  font-display: swap;
+}
+
+.vexa {
+  font-family: vexa, sans-serif;
+}
+
+
+
+
+/* scrollbar--------------------------------------- */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height : 100%;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #787878;
+  border-radius : 20px;
+}
+
+/* page transition-------------------------------- */
+.fadeIn {
+    animation: 1s fadeIn forwards ease-out;
+  }
+  
+  .fadeOut {
+    animation: 1s fadeOut forwards ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      transform: translateY(100%);
+      width: 85%;
+    }
+    to {
+      transform: translate(0%);
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      transform: translateY(0%);
+    }
+    to {
+      transform: translateY(100%);
+      width: 80%;
+    }
+  }
+
+ 

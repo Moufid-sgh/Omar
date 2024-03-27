@@ -1,0 +1,27 @@
+{
+    "navbar" : {
+        "home": "Home",
+        "gallery": "Gallery",
+        "exhibitions": "Exhibitions",
+        "about": "About",
+        "contact": "Contact",
+        "english": "English",
+        "arabic": "Arabic",
+        "menu": "Menu",
+        "close": "Close"
+    }, 
+
+    "omar": "Omar",
+    "barka": "Barka",
+    "bio": "A visual artist interested in calligraphy, with a unique artistic style that combines elements of contemporary abstract expression and traditional calligraphy. Utilizing various techniques and materials, they create non-traditional and unique artworks. The artist has participated in numerous local and international art exhibitions, as well as organizing and contributing to various workshops and cultural and artistic activities."  ,  
+
+    "rights" : "All Rights Reserved",
+
+    "contact" : {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send",
+        "gotMessage" : "Got your message ! I'll be in touch soon. Thanks !"
+    }
+}
